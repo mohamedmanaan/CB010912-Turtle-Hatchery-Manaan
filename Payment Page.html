@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turtle Category</title>
+
+
+    
+<link rel="apple-touch-icon" sizes="180x180" href="./Images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./Images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./Images/favicon-16x16.png">
+<link rel="manifest" href="./Images/site.webmanifest">
+<link rel="mask-icon" href="./Images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+    <!--import css-->
+    <link rel="stylesheet" a href="./CSS/payment page.css">
+    <link rel="stylesheet" a href="./CSS/main.css">
+
+    
+  
+
+</head>
+<body>
+
+<!--Header-->
+<div class="Tickets">
+  <h1>Buy Tickets</h1>
+</div>
+  <section  class="header9">
+      <nav>
+          <a href="index.html"><img src="./Images/Turtle House Of Sri Lanka.png"></a>
+          <div class="nav-links">
+              
+              <ul>
+                  <li><a href="">Details Page</a></li>
+                  <li><a href="">Payment Page</a></li>
+                  <li><a href="./Confirmation Page.html">Confirmation Page</a></li>
+                  
+      
+      </ul>
+  </div>
+  
+</nav>
+
+
+
+
+    <!--Payment Form-->
+  <section class="payment-form">
+    <div class="container">
+        <h1 class="form-title">Payment</h1>
+        <form action="#">
+          <div class="main-user-info">
+            <div class="user-input-box">
+              <label for="fullName">Card Holder Full Name</label>
+              <input type="text"
+                      id="fullName"
+                      name="fullName"
+                      placeholder="Enter Full Name"/>
+            </div>
+            <div class="user-input-box">
+              <label for="cardNumber">Card Number</label>
+              <input type="text"
+                      id="cardNumber"
+                      name="cardNumber"
+                      placeholder="0140 - XXXX - XXXX - XXXX"
+                      required maxlength="16"/>
+            </div>
+            
+            <div class="user-input-box">
+              <label for="exp">Valid Through</label>
+              <input type="text"
+                      id="exp"
+                      name="exp"
+                      placeholder="MM/YY" 
+                      maxlength="5"
+                      minlength="5"
+                      required/>
+            </div>
+            <div class="user-input-box">
+              <label for="cvc">CVV / CVC</label>
+              <input type="password"
+                      id="cvc"
+                      name="cvc"
+                      placeholder="xxx"
+                      maxlength="3"
+                      minlength="3"
+                      required/>
+            </div>
+            <div class="form-submit-btn">
+              <button><a href="./Confirmation Page.html" input type="submit" value="PAY">PAY</a></button>
+              
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+      
+</form>
+
+          
+<br>
+<br>
+           
+
+<!--Section Footer-->
+
+<section class="footer">
+  <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+  </div>
+  <div class="row">
+  <div class="col-left">
+      <p>Address : Temble road,colombo 06 <br>
+      Phone : +94 077 456 9005 <br>
+      Email : contact@sltourism.com </p>
+      
+  </div>
+  <ul class="experience"><b>EXPERIENCE</b>
+  
+          <li><a href="#">Natural</a></li>
+          <li><a href="#">Culture</a></li>
+          <li><a href="#">Religion</a></li>
+          <li><a href="#">Adventure</a></li>
+
+      </ul>
+ 
+  <ul class="travel"><b>TRAVEL GUIDE</b>
+     
+          <li><a href="#">Tourism Guide</a></li>
+          <li><a href="#">Travel Agent</a></li>
+          <li><a href="#">Accomodations</a></li>
+          <li><a href="#">On Budget</a></li>
+
+      </ul>
+ 
+  <ul class="happening"><b>WHAT'S HAPPENING</b>
+  
+          <li><a href="#">News</a></li>
+          <li><a href="#">Event</a></li>
+          <li><a href="#">Tips & Info</a></li>
+
+      </ul>
+ 
+</div>
+</section>
+
+<script src="./javascript/payment.js"></script>
+
+</body>
+</html>
